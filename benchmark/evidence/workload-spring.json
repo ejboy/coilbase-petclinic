@@ -1,0 +1,94 @@
+{
+  "startup_ms": 15124.211153,
+  "memory_samples": 13,
+  "note": "Memory covers workload and quiet interval (startup-only runs cover startup); PostgreSQL summed RSS includes shared pages.",
+  "app_rss_kib": {
+    "median": 311692,
+    "min": 302776,
+    "max": 311700
+  },
+  "postgres_sum_rss_kib": {
+    "median": 304708,
+    "min": 304176,
+    "max": 305168
+  },
+  "host_available_kib": {
+    "median": 308692,
+    "min": 306832,
+    "max": 311236
+  },
+  "paths": {
+    "/": {
+      "count": 20,
+      "median_ms": 7.7843374999999995,
+      "min_ms": 4.533116,
+      "max_ms": 70.039467,
+      "response_bytes": [
+        2658
+      ]
+    },
+    "/owners/find": {
+      "count": 20,
+      "median_ms": 10.373581,
+      "min_ms": 6.205367,
+      "max_ms": 21.561394,
+      "response_bytes": [
+        3250
+      ]
+    },
+    "/owners?lastName=Franklin": {
+      "count": 20,
+      "median_ms": 38.1788215,
+      "min_ms": 26.578166,
+      "max_ms": 62.263239,
+      "response_bytes": [
+        4180
+      ]
+    },
+    "/owners/1": {
+      "count": 20,
+      "median_ms": 23.025637,
+      "min_ms": 15.846372,
+      "max_ms": 45.68234,
+      "response_bytes": [
+        4180
+      ]
+    },
+    "/owners/1/edit": {
+      "count": 20,
+      "median_ms": 20.350925,
+      "min_ms": 15.360557,
+      "max_ms": 46.215883,
+      "response_bytes": [
+        4931
+      ]
+    },
+    "/owners/1/pets/new": {
+      "count": 20,
+      "median_ms": 46.101543,
+      "min_ms": 28.179021,
+      "max_ms": 68.048307,
+      "response_bytes": [
+        4499
+      ]
+    },
+    "/vets.html": {
+      "count": 20,
+      "median_ms": 15.22598,
+      "min_ms": 9.149884,
+      "max_ms": 26.784698,
+      "response_bytes": [
+        3925
+      ]
+    },
+    "/vets": {
+      "count": 20,
+      "median_ms": 5.840692,
+      "min_ms": 2.879597,
+      "max_ms": 12.985369,
+      "response_bytes": [
+        797
+      ]
+    }
+  }
+}

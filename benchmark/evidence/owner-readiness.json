@@ -1,0 +1,44 @@
+{
+  "coilbase-1": {
+    "elapsed_ms": 2481.389104,
+    "ready_wall_time_ns": 1794363039580659184,
+    "poll_interval_seconds": 0.1,
+    "path": "/owners/1",
+    "required_text": "Franklin"
+  },
+  "coilbase-2": {
+    "elapsed_ms": 2628.013327,
+    "ready_wall_time_ns": 1794363042815569330,
+    "poll_interval_seconds": 0.1,
+    "path": "/owners/1",
+    "required_text": "Franklin"
+  },
+  "coilbase-3": {
+    "elapsed_ms": 2785.822995,
+    "ready_wall_time_ns": 1794363095802179941,
+    "poll_interval_seconds": 0.1,
+    "path": "/owners/1",
+    "required_text": "Franklin"
+  },
+  "spring-1": {
+    "elapsed_ms": 15187.881825,
+    "ready_wall_time_ns": 1794363036819071141,
+    "poll_interval_seconds": 0.1,
+    "path": "/owners/1",
+    "required_text": "Franklin"
+  },
+  "spring-2": {
+    "elapsed_ms": 19763.712414,
+    "ready_wall_time_ns": 1794363063181767910,
+    "poll_interval_seconds": 0.1,
+    "path": "/owners/1",
+    "required_text": "Franklin"
+  },
+  "spring-3": {
+    "elapsed_ms": 28899.44111,
+    "ready_wall_time_ns": 1794363092735250743,
+    "poll_interval_seconds": 0.1,
+    "path": "/owners/1",
+    "required_text": "Franklin"
+  }
+}
