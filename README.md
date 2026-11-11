@@ -30,4 +30,4 @@ For PostgreSQL, create a disposable database and initialize it with `src/test/re
 
 Run `python3 scripts/check.py` after packaging for isolated H2 HTTP and restart checks. Sessions and flash are in-memory and single-process; restarts discard them. The application does not provide authentication.
 
-The measured application JAR SHA-256 was `076e77c96910b07493dc4349a9fb8c99967f71e5891294a2060726797391840b`. The public version adjusts the navigation brand markup and adds a footer credit after measurement. A rebuild may produce different bytes. Static assets and fixtures derive from the pinned upstream project; see [LICENSE](LICENSE) and [third-party notices](THIRD-PARTY-NOTICES.md).
+Static assets and fixtures derive from the pinned upstream project. See [third-party notices](THIRD-PARTY-NOTICES.md) and the [benchmark report](benchmark/README.md) for measured-artifact details.
