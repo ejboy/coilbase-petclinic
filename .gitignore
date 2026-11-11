@@ -2,3 +2,7 @@
 /results/
 /petclinic.mv.db
 /petclinic.trace.db
+
+/.demo-db/
+
+.idea/

@@ -14,16 +14,17 @@ More screenshots are available in [docs/images](docs/images/).
 
 ## Run locally
 
-Requires Java 25 and Maven. From this directory:
+Requires Java 25 and Maven. Run from this directory:
 
 ```sh
-mvn clean package
-java -cp 'target/lib/*' org.h2.tools.RunScript -url 'jdbc:h2:file:./petclinic' -user '' -script src/test/resources/schema.sql
-java -cp 'target/lib/*' org.h2.tools.RunScript -url 'jdbc:h2:file:./petclinic' -user '' -script src/test/resources/data.sql
-PETCLINIC_DB='jdbc:h2:file:./petclinic' PETCLINIC_SECURE_COOKIE=false java -jar target/petclinic-1.0-SNAPSHOT.jar
+./run.sh
 ```
 
-Open http://localhost:8080. These initialization commands are for a new disposable local database only; never run them against a real database. The application does not initialize its schema automatically. Set `PORT`, `PETCLINIC_DB`, `PETCLINIC_DB_USER` and `PETCLINIC_DB_PASSWORD` as needed. Secure cookies default to enabled; disable them only for local HTTP.
+Open http://localhost:8080. The script builds the application and initializes a dedicated H2 database in `.demo-db/` on first launch. Subsequent launches preserve changes. If `PETCLINIC_DB` is set, the script uses that database without initializing it; configure its schema and credentials separately. The application never initializes its schema automatically. Set `PORT`, `PETCLINIC_DB_USER` and `PETCLINIC_DB_PASSWORD` as needed. For the local H2 demo, the script defaults `PETCLINIC_SECURE_COOKIE` to `false` for HTTP. With an external database, the application keeps its secure-cookie default unless explicitly configured.
+
+## Build and deploy
+
+`mvn clean package` runs the tests and produces the thin executable JAR in `target/`, its runtime dependencies in `target/lib/`, and `target/petclinic-1.0-SNAPSHOT-deployment.tar.gz`. The archive contains the JAR, `lib/` and license notices. Extract it and run `java -jar petclinic-1.0-SNAPSHOT.jar` with a configured, initialized database. It does not include fixtures or initialize the database.
 
 For PostgreSQL, create a disposable database and initialize it with `src/test/resources/postgres/schema.sql` and `data.sql` using `psql`; set `PETCLINIC_DB` to its JDBC URL and configure credentials. PostgreSQL tests run when `PETCLINIC_TEST_POSTGRES_URL`, `PETCLINIC_TEST_POSTGRES_USER` and `PETCLINIC_TEST_POSTGRES_PASSWORD` are set for a disposable database whose user can create and drop schemas. Otherwise they are skipped.
 
