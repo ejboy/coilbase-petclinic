@@ -1,6 +1,6 @@
 # CoilBase PetClinic
 
-A CoilBase port of [Spring PetClinic](https://github.com/spring-projects/spring-petclinic/tree/500158f732419217507c7656904b8e6aa1bcc0d6), using explicit services, SQL and JTE templates. This is a reference application, not a production-hardened deployment.
+A [CoilBase](https://github.com/PVRLabs/coilbase) port of [Spring PetClinic](https://github.com/spring-projects/spring-petclinic/tree/500158f732419217507c7656904b8e6aa1bcc0d6), using explicit services, SQL and JTE templates. This is a reference application, not a production-hardened deployment.
 
 The application supports owner search and editing, pets, visits, and veterinarian pages. It uses Avaje Jex routes, Jdbi-backed repositories, explicit service transactions and JTE templates. The [migration guide](docs/migration.md) explains these choices and their trade-offs. The [shared HTTP contract](contract/README.md) compares representative workflows with the pinned Spring application.
 
