@@ -7,7 +7,7 @@
 @param String lang
 @template.layout(lang = lang, messages = messages, content = @`
 <h2>${messages.getString("owners")}</h2>
-<table><thead><tr><th>${messages.getString("name")}</th><th>${messages.getString("address")}</th><th>${messages.getString("city")}</th><th>${messages.getString("telephone")}</th></tr></thead><tbody>
+<table class="table table-striped"><thead><tr><th>${messages.getString("name")}</th><th>${messages.getString("address")}</th><th>${messages.getString("city")}</th><th>${messages.getString("telephone")}</th></tr></thead><tbody>
 @for(var owner : owners)
 <tr><td><a href="/owners/${owner.id()}">${owner.firstName()} ${owner.lastName()}</a></td><td>${owner.address()}</td><td>${owner.city()}</td><td>${owner.telephone()}</td></tr>
 @endfor

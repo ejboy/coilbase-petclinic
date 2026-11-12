@@ -3,9 +3,9 @@
 @param java.util.List<pvrlabs.coilbase.samples.petclinic.owner.PetType> types
 @param java.util.Map<String, String> errors
 @param java.util.ResourceBundle messages
-<div>
-    <label for="${name}">${messages.getString(name)}</label>
-    <select id="${name}" name="${name}" aria-invalid="${errors.containsKey(name)}"
+<div class="mb-3">
+    <label class="form-label" for="${name}">${messages.getString(name)}</label>
+    <select class="form-select" id="${name}" name="${name}" aria-invalid="${errors.containsKey(name)}"
             aria-describedby="${errors.containsKey(name) ? name + "-error" : null}">
         <option value=""></option>
         @for(var type : types)

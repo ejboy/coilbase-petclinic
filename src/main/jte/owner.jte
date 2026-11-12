@@ -10,13 +10,13 @@
     @if(!flash.isEmpty())
         <p role="alert">${flash}</p>
     @endif
-    <form method="post">
+    <form class="petclinic-form" method="post">
         <input type="hidden" name="_csrf" value="${csrf}">
         @template.field("firstName", "text", form.firstName(), errors, messages)
         @template.field("lastName", "text", form.lastName(), errors, messages)
         @template.field("address", "text", form.address(), errors, messages)
         @template.field("city", "text", form.city(), errors, messages)
         @template.field("telephone", "text", form.telephone(), errors, messages)
-        <button type="submit">${messages.getString(creating ? "addOwner" : "updateOwner")}</button>
+        <button class="btn btn-primary" type="submit">${messages.getString(creating ? "addOwner" : "updateOwner")}</button>
     </form>
 `)
