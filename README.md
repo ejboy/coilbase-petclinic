@@ -6,11 +6,14 @@ The application supports owner search and editing, pets, visits, and veterinaria
 
 In a small PostgreSQL experiment, the CoilBase application reached a database-backed owner page in a median 2.63 seconds, compared with 19.76 seconds for Spring. Application RSS medians were 125.9 MiB and 304.4 MiB respectively. These results compare complete applications under one short exploratory workload. They do not measure framework overhead or production capacity. See the [benchmark](benchmark/README.md) for the method, results and limitations.
 
+![Comparison of database-backed owner response, application RSS and deployment size for Spring and CoilBase PetClinic](docs/images/results.svg)
+
+Owner response is the median of three launches from the separate database-readiness follow-up. RSS is the median during the workload and quiet interval. Deployment size includes the uncompressed application JAR and runtime libraries. Each chart has its own zero-based scale.
+
+
 ![Owner detail page showing the sample Franklin fixture](docs/images/owner.png)
 
 The owner detail page uses the sample data and static assets from Spring PetClinic.
-
-More screenshots are available in [docs/images](docs/images/).
 
 ## Run locally
 

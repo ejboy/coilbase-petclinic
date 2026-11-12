@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="374.4pt" viewBox="0 0 720 374.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-11T15:14:51.321606</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 374.4 
+L 720 374.4 
+L 720 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 100.8 99.085395 
+L 698.4 99.085395 
+L 698.4 22.464 
+L 100.8 22.464 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 100.8 99.085395 
+L 100.8 22.464 
+" clip-path="url(#p437b9f7ed4)" style="fill: none; stroke: #e5e9e6; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle" x="100.8" y="109.865669" transform="rotate(-0 100.8 109.865669)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 286.910246 99.085395 
+L 286.910246 22.464 
+" clip-path="url(#p437b9f7ed4)" style="fill: none; stroke: #e5e9e6; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle" x="286.910246" y="109.865669" transform="rotate(-0 286.910246 109.865669)">8</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 473.020492 99.085395 
+L 473.020492 22.464 
+" clip-path="url(#p437b9f7ed4)" style="fill: none; stroke: #e5e9e6; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle" x="473.020492" y="109.865669" transform="rotate(-0 473.020492 109.865669)">16</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 659.130738 99.085395 
+L 659.130738 22.464 
+" clip-path="url(#p437b9f7ed4)" style="fill: none; stroke: #e5e9e6; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle" x="659.130738" y="109.865669" transform="rotate(-0 659.130738 109.865669)">24</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_9"/>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: end" x="97.3" y="47.000881" transform="rotate(-0 97.3 47.000881)">Spring</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_10"/>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: end" x="97.3" y="81.828788" transform="rotate(-0 97.3 81.828788)">CoilBase</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 100.8 50.674605 
+L 560.492308 50.674605 
+L 560.492308 36.046884 
+L 100.8 36.046884 
+z
+" clip-path="url(#p437b9f7ed4)" style="fill: #727b77"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 100.8 85.502512 
+L 161.983743 85.502512 
+L 161.983743 70.874791 
+L 100.8 70.874791 
+z
+" clip-path="url(#p437b9f7ed4)" style="fill: #4d963d"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'Arial'; text-anchor: start" x="571.984615" y="46.207424" transform="rotate(-0 571.984615 46.207424)">19.76 s</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'Arial'; text-anchor: start" x="173.476051" y="81.035331" transform="rotate(-0 173.476051 81.035331)">2.63 s</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 12px; font-family: 'Arial'; text-anchor: start" x="100.8" y="14.464" transform="rotate(-0 100.8 14.464)">Database-backed owner response (s)</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 100.8 225.510698 
+L 698.4 225.510698 
+L 698.4 148.889302 
+L 100.8 148.889302 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_5">
+     <g id="line2d_11">
+      <path d="M 100.8 225.510698 
+L 100.8 148.889302 
+" clip-path="url(#pac8e847497)" style="fill: none; stroke: #e5e9e6; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle" x="100.8" y="236.290971" transform="rotate(-0 100.8 236.290971)">0</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_13">
+      <path d="M 251.81587 225.510698 
+L 251.81587 148.889302 
+" clip-path="url(#pac8e847497)" style="fill: none; stroke: #e5e9e6; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle" x="251.81587" y="236.290971" transform="rotate(-0 251.81587 236.290971)">100</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_15">
+      <path d="M 402.83174 225.510698 
+L 402.83174 148.889302 
+" clip-path="url(#pac8e847497)" style="fill: none; stroke: #e5e9e6; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16"/>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle" x="402.83174" y="236.290971" transform="rotate(-0 402.83174 236.290971)">200</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_17">
+      <path d="M 553.847609 225.510698 
+L 553.847609 148.889302 
+" clip-path="url(#pac8e847497)" style="fill: none; stroke: #e5e9e6; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18"/>
+     <g id="text_13">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle" x="553.847609" y="236.290971" transform="rotate(-0 553.847609 236.290971)">300</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_3">
+     <g id="line2d_19"/>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: end" x="97.3" y="173.426183" transform="rotate(-0 97.3 173.426183)">Spring</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_20"/>
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: end" x="97.3" y="208.25409" transform="rotate(-0 97.3 208.25409)">CoilBase</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 100.8 177.099907 
+L 560.492308 177.099907 
+L 560.492308 162.472186 
+L 100.8 162.472186 
+z
+" clip-path="url(#pac8e847497)" style="fill: #727b77"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 100.8 211.927814 
+L 290.92898 211.927814 
+L 290.92898 197.300093 
+L 100.8 197.300093 
+z
+" clip-path="url(#pac8e847497)" style="fill: #4d963d"/>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 11px; font-family: 'Arial'; text-anchor: start" x="571.984615" y="172.632726" transform="rotate(-0 571.984615 172.632726)">304.4 MiB</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 11px; font-family: 'Arial'; text-anchor: start" x="302.421288" y="207.460633" transform="rotate(-0 302.421288 207.460633)">125.9 MiB</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 12px; font-family: 'Arial'; text-anchor: start" x="100.8" y="140.889302" transform="rotate(-0 100.8 140.889302)">Application RSS (MiB)</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_8">
+    <path d="M 100.8 351.936 
+L 698.4 351.936 
+L 698.4 275.314605 
+L 100.8 275.314605 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_9">
+     <g id="line2d_21">
+      <path d="M 100.8 351.936 
+L 100.8 275.314605 
+" clip-path="url(#p32936fc8ff)" style="fill: none; stroke: #e5e9e6; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_22"/>
+     <g id="text_19">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle" x="100.8" y="362.716273" transform="rotate(-0 100.8 362.716273)">0</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_23">
+      <path d="M 275.967743 351.936 
+L 275.967743 275.314605 
+" clip-path="url(#p32936fc8ff)" style="fill: none; stroke: #e5e9e6; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_24"/>
+     <g id="text_20">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle" x="275.967743" y="362.716273" transform="rotate(-0 275.967743 362.716273)">25</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_25">
+      <path d="M 451.135485 351.936 
+L 451.135485 275.314605 
+" clip-path="url(#p32936fc8ff)" style="fill: none; stroke: #e5e9e6; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_26"/>
+     <g id="text_21">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle" x="451.135485" y="362.716273" transform="rotate(-0 451.135485 362.716273)">50</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_27">
+      <path d="M 626.303228 351.936 
+L 626.303228 275.314605 
+" clip-path="url(#p32936fc8ff)" style="fill: none; stroke: #e5e9e6; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_28"/>
+     <g id="text_22">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle" x="626.303228" y="362.716273" transform="rotate(-0 626.303228 362.716273)">75</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_5">
+     <g id="line2d_29"/>
+     <g id="text_23">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: end" x="97.3" y="299.851486" transform="rotate(-0 97.3 299.851486)">Spring</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_30"/>
+     <g id="text_24">
+      <text style="font-size: 10px; font-family: 'Arial'; text-anchor: end" x="97.3" y="334.679393" transform="rotate(-0 97.3 334.679393)">CoilBase</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 100.8 303.525209 
+L 560.492308 303.525209 
+L 560.492308 288.897488 
+L 100.8 288.897488 
+z
+" clip-path="url(#p32936fc8ff)" style="fill: #727b77"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 100.8 338.353116 
+L 169.292724 338.353116 
+L 169.292724 323.725395 
+L 100.8 323.725395 
+z
+" clip-path="url(#p32936fc8ff)" style="fill: #4d963d"/>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 11px; font-family: 'Arial'; text-anchor: start" x="571.984615" y="299.058029" transform="rotate(-0 571.984615 299.058029)">65.6 MB</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 11px; font-family: 'Arial'; text-anchor: start" x="180.785032" y="333.885936" transform="rotate(-0 180.785032 333.885936)">9.8 MB</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 12px; font-family: 'Arial'; text-anchor: start" x="100.8" y="267.314605" transform="rotate(-0 100.8 267.314605)">Complete deployment size (MB)</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p437b9f7ed4">
+   <rect x="100.8" y="22.464" width="597.6" height="76.621395"/>
+  </clipPath>
+  <clipPath id="pac8e847497">
+   <rect x="100.8" y="148.889302" width="597.6" height="76.621395"/>
+  </clipPath>
+  <clipPath id="p32936fc8ff">
+   <rect x="100.8" y="275.314605" width="597.6" height="76.621395"/>
+  </clipPath>
+ </defs>
+</svg>

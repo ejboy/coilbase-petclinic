@@ -2,6 +2,11 @@
 
 On this small, warm-host PostgreSQL deployment, the CoilBase port reached both the root page and a database-backed owner page faster and used less application RSS than the pinned Spring application. In a short sequential read-only workload its median request time was lower for seven of eight paths; the cached Spring vet JSON was faster on the eighth. These are observations of two complete applications and their selected dependencies and defaults, not isolated framework costs or capacity limits.
 
+![Comparison of database-backed owner response, application RSS and deployment size for Spring and CoilBase PetClinic](../docs/images/results.svg)
+
+Owner response is the median of three launches from the separate database-readiness follow-up. RSS is the median during the workload and quiet interval. Deployment size includes the uncompressed application JAR and runtime libraries. Each chart has its own zero-based scale.
+
+
 The observations below are from the original measurement and its separate follow-up. The original recorded interval was 2026-11-11 01:57:54–02:00:59 UTC; the database-backed readiness follow-up ran at 02:10:21–02:11:36 UTC after a VM restart and fresh smoke checks. The local x86-64 Lima VM had one vCPU, 1 GiB allocated, 959 MiB guest memory and no swap. Both applications ran sequentially with Temurin 25.0.4.1+1, `-Xms64m -Xmx256m`, and PostgreSQL 18.6 in the same VM. The JVM chose Serial GC ergonomically for both; the recorded effective flags and application GC logs are in the private experiment archive. PostgreSQL used 128 MiB shared buffers, 100 maximum connections and 4 MiB work memory. Separate databases had matching pinned fixtures and `C.UTF-8` collation.
 
 | Observation | Spring | CoilBase |

@@ -1,8 +1,8 @@
 # From Spring PetClinic to CoilBase
 
-This application is a worked migration of the pinned Spring PetClinic, not a required architecture for CoilBase. Spring Boot supplies dependency injection, persistence integration, template rendering and web conventions; here the application explicitly assembles those responsibilities. That makes dependencies and lifecycle visible, but leaves more wiring and decisions to the application.
+This application is a worked migration of the pinned Spring PetClinic, not a required architecture for [CoilBase](https://github.com/PVRLabs/coilbase). Spring Boot supplies dependency injection, persistence integration, template rendering and web conventions; here the application explicitly assembles those responsibilities. That makes dependencies and lifecycle visible, but leaves more wiring and decisions to the application.
 
-`PetClinicApplication` constructs the datasource, repositories, service and controllers. The Avaje HTTP Jex generator creates route adapters at compile time from controller annotations. Controllers decode and validate form input, call the service, and render precompiled JTE templates. Templates replace Thymeleaf in this example; CoilBase does not require JTE.
+`PetClinicApplication` constructs the datasource, repositories, service and controllers. The [Avaje HTTP Jex generator](https://avaje.io/http/) creates route adapters at compile time from controller annotations. Controllers decode and validate form input, call the service, and render precompiled JTE templates. Templates replace Thymeleaf in this example; CoilBase does not require JTE.
 
 Repositories use Jdbi and explicit SQL in place of JPA/Hibernate. Relationships and loading are explicit, so migration requires decisions about queries, persistence order and transaction boundaries. `ClinicService` owns multi-step transactions and rollback; database constraints still protect concurrent writes. The same common SQL and default statement selection work with the supplied H2 and PostgreSQL schemas; CoilBase also supports dialect overrides when needed.
 
