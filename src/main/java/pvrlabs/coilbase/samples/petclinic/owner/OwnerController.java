@@ -81,11 +81,7 @@ public final class OwnerController {
     }
 
     @Get("/owners/{ownerId}/edit")
-    public void edit(Context context) {
-        Integer ownerId = Requests.ownerId(context);
-        if (ownerId == null) {
-            return;
-        }
+    public void edit(Context context, int ownerId) {
         var owner = clinic.findOwner(ownerId);
         if (owner.isEmpty()) {
             context.writeEmpty(404);
@@ -96,13 +92,9 @@ public final class OwnerController {
     }
 
     @Post("/owners/{ownerId}/edit")
-    public void update(Context context) {
+    public void update(Context context, int ownerId) {
         // Generated POST routes default to 201; form responses historically use 200.
         context.status(200);
-        Integer ownerId = Requests.ownerId(context);
-        if (ownerId == null) {
-            return;
-        }
         var session = sessions.authorizeForm(context);
         if (session == null) {
             return;
@@ -130,11 +122,7 @@ public final class OwnerController {
     }
 
     @Get("/owners/{ownerId}")
-    public void details(Context context) {
-        Integer ownerId = Requests.ownerId(context);
-        if (ownerId == null) {
-            return;
-        }
+    public void details(Context context, int ownerId) {
         var owner = clinic.findOwner(ownerId);
         if (owner.isEmpty()) {
             context.writeEmpty(404);

@@ -1,6 +1,7 @@
 package pvrlabs.coilbase.samples.petclinic;
 
 import io.avaje.jex.Jex;
+import io.avaje.http.api.InvalidPathArgumentException;
 import java.time.Duration;
 import javax.sql.DataSource;
 import pvrlabs.coilbase.jex.CoilBaseJexApplication;
@@ -28,6 +29,11 @@ public final class PetClinicApplication extends CoilBaseJexApplication {
     PetClinicApplication(AppConfig config) {
         this.config = config;
         enableStaticResources();
+    }
+
+    @Override
+    protected void configureErrorHandling() {
+        mapError(InvalidPathArgumentException.class, 400);
     }
 
     @Override

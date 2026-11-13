@@ -7,15 +7,11 @@ public final class Requests {
     private Requests() {
     }
 
-    public static Integer ownerId(Context context) {
-        try {
-            return Integer.valueOf(context.pathParam("ownerId"));
-        } catch (NumberFormatException exception) {
-            context.writeEmpty(400);
-            return null;
-        }
-    }
-
+    /**
+     * Jex 3.6's native form decoder incorrectly preserves '+'; field() deliberately uses
+     * Java's form decoder instead. The 16 KiB limit is application policy, and requiring
+     * an explicit content length is a simplifying restriction of this example.
+     */
     public static boolean acceptFormBody(Context context) {
         String length = context.header("Content-Length");
         if (length == null || context.header("Transfer-Encoding") != null) {
@@ -40,15 +36,6 @@ public final class Requests {
             return false;
         }
         return true;
-    }
-
-    public static Integer petId(Context context) {
-        try {
-            return Integer.valueOf(context.pathParam("petId"));
-        } catch (NumberFormatException exception) {
-            context.writeEmpty(400);
-            return null;
-        }
     }
 
     public static String field(Context context, String name, String previousValue) {

@@ -29,22 +29,14 @@ public final class VisitController {
                 "description", description, "errors", errors, "csrf", session.csrf));
     }
     @Get("/owners/{ownerId}/pets/{petId}/visits/new")
-    public void newVisit(Context context) {
-        Integer ownerId = Requests.ownerId(context);
-        if (ownerId == null) return;
-        Integer petId = Requests.petId(context);
-        if (petId == null) return;
+    public void newVisit(Context context, int ownerId, int petId) {
         var pet = clinic.findPet(ownerId, petId);
         if (pet.isEmpty()) { context.writeEmpty(404); return; }
         showForm(context, pet.get(), LocalDate.now().plusDays(1).toString(), "", Map.of(), sessions.getOrCreate(context));
     }
     @Post("/owners/{ownerId}/pets/{petId}/visits/new")
-    public void create(Context context) {
+    public void create(Context context, int ownerId, int petId) {
         context.status(200);
-        Integer ownerId = Requests.ownerId(context);
-        if (ownerId == null) return;
-        Integer petId = Requests.petId(context);
-        if (petId == null) return;
         var session = sessions.authorizeForm(context);
         if (session == null) return;
         var pet = clinic.findPet(ownerId, petId);

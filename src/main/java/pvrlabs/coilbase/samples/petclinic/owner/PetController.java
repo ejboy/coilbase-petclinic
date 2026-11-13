@@ -28,21 +28,15 @@ public final class PetController {
                 "types", clinic.petTypes(), "editing", editing));
     }
     @Get("/owners/{ownerId}/pets/new")
-    public void newPet(Context context) {
-        Integer ownerId = Requests.ownerId(context);
-        if (ownerId == null) return;
+    public void newPet(Context context, int ownerId) {
         if (clinic.findOwner(ownerId).isEmpty()) { context.writeEmpty(404); return; }
         showForm(context, new PetForm("", "", ""), Map.of(), sessions.getOrCreate(context), false);
     }
     @Post("/owners/{ownerId}/pets/new")
-    public void create(Context context) { save(context, false); }
+    public void create(Context context, int ownerId) { save(context, ownerId, 0, false); }
 
     @Get("/owners/{ownerId}/pets/{petId}/edit")
-    public void edit(Context context) {
-        Integer ownerId = Requests.ownerId(context);
-        if (ownerId == null) return;
-        Integer petId = Requests.petId(context);
-        if (petId == null) return;
+    public void edit(Context context, int ownerId, int petId) {
         var pet = clinic.findPet(ownerId, petId);
         if (pet.isEmpty()) { context.writeEmpty(404); return; }
         var found = pet.get();
@@ -50,14 +44,10 @@ public final class PetController {
                 Map.of(), sessions.getOrCreate(context), true);
     }
     @Post("/owners/{ownerId}/pets/{petId}/edit")
-    public void update(Context context) { save(context, true); }
+    public void update(Context context, int ownerId, int petId) { save(context, ownerId, petId, true); }
 
-    private void save(Context context, boolean editing) {
+    private void save(Context context, int ownerId, int petId, boolean editing) {
         context.status(200); // Generated POST routes default to 201.
-        Integer ownerId = Requests.ownerId(context);
-        if (ownerId == null) return;
-        Integer petId = editing ? Requests.petId(context) : 0;
-        if (petId == null) return;
         var session = sessions.authorizeForm(context);
         if (session == null) return;
         if (editing ? clinic.findPet(ownerId, petId).isEmpty() : clinic.findOwner(ownerId).isEmpty()) {
