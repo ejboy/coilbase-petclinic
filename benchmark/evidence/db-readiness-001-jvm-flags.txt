@@ -1,0 +1,4 @@
+size_t InitialHeapSize                          = 67108864                                  {product} {command line}
+size_t MaxHeapSize                              = 268435456                                 {product} {command line}
+bool UseG1GC                                  = false                                     {product} {default}
+bool UseSerialGC                              = true                                      {product} {ergonomic}

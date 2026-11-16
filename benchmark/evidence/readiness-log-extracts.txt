@@ -1,0 +1,29 @@
+## spring-1
+[0.007s][info][gc] Using Serial
+2026-11-11T02:10:29.157Z  INFO 1310 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-11T02:10:29.830Z  INFO 1310 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+
+## spring-2
+[0.007s][info][gc] Using Serial
+2026-11-11T02:10:51.004Z  INFO 1457 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-11T02:10:51.725Z  INFO 1457 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+
+## spring-3
+[0.015s][info][gc] Using Serial
+2026-11-11T02:11:23.875Z  INFO 1534 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-11T02:11:24.594Z  INFO 1534 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+
+## coilbase-1
+[0.009s][info][gc] Using Serial
+[avaje-jex-http-0] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[avaje-jex-http-0] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+
+## coilbase-2
+[0.011s][info][gc] Using Serial
+[avaje-jex-http-0] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[avaje-jex-http-0] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+
+## coilbase-3
+[0.008s][info][gc] Using Serial
+[avaje-jex-http-0] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[avaje-jex-http-0] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

@@ -1,0 +1,56 @@
+[
+  {
+    "application": "spring",
+    "observation": 1,
+    "sequence": "run-001",
+    "pid": 6971,
+    "elapsed_ms": 16232.169808,
+    "ready_wall_time_ns": 1794362290994843915,
+    "poll_interval_seconds": 0.1
+  },
+  {
+    "application": "spring",
+    "observation": 2,
+    "sequence": "run-002",
+    "pid": 7272,
+    "elapsed_ms": 15257.690688,
+    "ready_wall_time_ns": 1794362396536806086,
+    "poll_interval_seconds": 0.1
+  },
+  {
+    "application": "spring",
+    "observation": 3,
+    "sequence": "run-002",
+    "pid": 7342,
+    "elapsed_ms": 15153.857083,
+    "ready_wall_time_ns": 1794362411918382188,
+    "poll_interval_seconds": 0.1
+  },
+  {
+    "application": "coilbase",
+    "observation": 1,
+    "sequence": "run-002",
+    "pid": 7222,
+    "elapsed_ms": 1180.901655,
+    "ready_wall_time_ns": 1794362379756830444,
+    "poll_interval_seconds": 0.1
+  },
+  {
+    "application": "coilbase",
+    "observation": 2,
+    "sequence": "run-002",
+    "pid": 7247,
+    "elapsed_ms": 1171.770263,
+    "ready_wall_time_ns": 1794362381103663978,
+    "poll_interval_seconds": 0.1
+  },
+  {
+    "application": "coilbase",
+    "observation": 3,
+    "sequence": "run-002",
+    "pid": 7420,
+    "elapsed_ms": 1175.005503,
+    "ready_wall_time_ns": 1794362413374163747,
+    "poll_interval_seconds": 0.1
+  }
+]
