@@ -1,0 +1,12 @@
+[
+  "java",
+  "-Xms64m",
+  "-Xmx256m",
+  "-Xlog:gc",
+  "-jar",
+  "[deployment]/spring-old/spring-petclinic-4.0.0-SNAPSHOT.jar",
+  "--server.port=8080",
+  "--spring.datasource.url=[fixture-database]",
+  "--spring.datasource.username=[fixture-user]",
+  "--spring.sql.init.mode=never"
+]

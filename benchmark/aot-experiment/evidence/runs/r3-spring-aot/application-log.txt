@@ -1,0 +1,3 @@
+[0.015s][info][gc] Using Serial
+[0.018s][info][aot] Opened AOT cache [deployment]/spring-aot/app-absolute.aot.
+Starting AOT-processed PetClinicApplication (startup log excerpt)

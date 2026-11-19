@@ -1,0 +1,11 @@
+[
+  "java",
+  "-Xms64m",
+  "-Xmx256m",
+  "-Xlog:gc",
+  "-XX:AOTMode=on",
+  "-XX:AOTCache=[deployment]/coilbase/app.aot",
+  "-Xlog:aot",
+  "-jar",
+  "[deployment]/coilbase/petclinic-1.0-SNAPSHOT.jar"
+]

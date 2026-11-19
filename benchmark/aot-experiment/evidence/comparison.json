@@ -1,0 +1,422 @@
+{
+  "spring-old": {
+    "runs": [
+      {
+        "root_s": 23.86744746,
+        "owner_s": 24.598174910999997,
+        "ready_rss_mib": 286.2265625,
+        "ready_pss_mib": 283.5546875,
+        "quiet_rss_mib": 291.97265625,
+        "quiet_pss_mib": 289.30078125,
+        "quiet_postgres_pss_mib": 56.6689453125,
+        "quiet_available_mib": 353.32421875,
+        "quiet_samples": 15
+      },
+      {
+        "root_s": 43.463073580999996,
+        "owner_s": 44.210463943,
+        "ready_rss_mib": 277.7890625,
+        "ready_pss_mib": 275.1162109375,
+        "quiet_rss_mib": 284.72265625,
+        "quiet_pss_mib": 282.0498046875,
+        "quiet_postgres_pss_mib": 55.962890625,
+        "quiet_available_mib": 362.87890625,
+        "quiet_samples": 15
+      },
+      {
+        "root_s": 47.061447261,
+        "owner_s": 47.920011698,
+        "ready_rss_mib": 286.8125,
+        "ready_pss_mib": 284.2001953125,
+        "quiet_rss_mib": 291.81640625,
+        "quiet_pss_mib": 289.2041015625,
+        "quiet_postgres_pss_mib": 55.8515625,
+        "quiet_available_mib": 354.859375,
+        "quiet_samples": 15
+      }
+    ],
+    "summary": {
+      "root_s": {
+        "median": 43.463073580999996,
+        "min": 23.86744746,
+        "max": 47.061447261
+      },
+      "owner_s": {
+        "median": 44.210463943,
+        "min": 24.598174910999997,
+        "max": 47.920011698
+      },
+      "ready_rss_mib": {
+        "median": 286.2265625,
+        "min": 277.7890625,
+        "max": 286.8125
+      },
+      "ready_pss_mib": {
+        "median": 283.5546875,
+        "min": 275.1162109375,
+        "max": 284.2001953125
+      },
+      "quiet_rss_mib": {
+        "median": 291.81640625,
+        "min": 284.72265625,
+        "max": 291.97265625
+      },
+      "quiet_pss_mib": {
+        "median": 289.2041015625,
+        "min": 282.0498046875,
+        "max": 289.30078125
+      },
+      "quiet_postgres_pss_mib": {
+        "median": 55.962890625,
+        "min": 55.8515625,
+        "max": 56.6689453125
+      },
+      "quiet_available_mib": {
+        "median": 354.859375,
+        "min": 353.32421875,
+        "max": 362.87890625
+      },
+      "quiet_samples": {
+        "median": 15,
+        "min": 15,
+        "max": 15
+      }
+    }
+  },
+  "spring-current": {
+    "runs": [
+      {
+        "root_s": 24.068532438,
+        "owner_s": 24.531112789999998,
+        "ready_rss_mib": 280.4375,
+        "ready_pss_mib": 277.8095703125,
+        "quiet_rss_mib": 286.5390625,
+        "quiet_pss_mib": 283.9111328125,
+        "quiet_postgres_pss_mib": 56.671875,
+        "quiet_available_mib": 360.84375,
+        "quiet_samples": 15
+      },
+      {
+        "root_s": 21.840874768000003,
+        "owner_s": 22.287737321,
+        "ready_rss_mib": 286.5078125,
+        "ready_pss_mib": 283.841796875,
+        "quiet_rss_mib": 286.4765625,
+        "quiet_pss_mib": 283.810546875,
+        "quiet_postgres_pss_mib": 56.671875,
+        "quiet_available_mib": 357.6015625,
+        "quiet_samples": 15
+      },
+      {
+        "root_s": 50.743533883,
+        "owner_s": 51.314820319,
+        "ready_rss_mib": 289.02734375,
+        "ready_pss_mib": 286.3544921875,
+        "quiet_rss_mib": 294.6953125,
+        "quiet_pss_mib": 292.0224609375,
+        "quiet_postgres_pss_mib": 55.0595703125,
+        "quiet_available_mib": 353.74609375,
+        "quiet_samples": 15
+      }
+    ],
+    "summary": {
+      "root_s": {
+        "median": 24.068532438,
+        "min": 21.840874768000003,
+        "max": 50.743533883
+      },
+      "owner_s": {
+        "median": 24.531112789999998,
+        "min": 22.287737321,
+        "max": 51.314820319
+      },
+      "ready_rss_mib": {
+        "median": 286.5078125,
+        "min": 280.4375,
+        "max": 289.02734375
+      },
+      "ready_pss_mib": {
+        "median": 283.841796875,
+        "min": 277.8095703125,
+        "max": 286.3544921875
+      },
+      "quiet_rss_mib": {
+        "median": 286.5390625,
+        "min": 286.4765625,
+        "max": 294.6953125
+      },
+      "quiet_pss_mib": {
+        "median": 283.9111328125,
+        "min": 283.810546875,
+        "max": 292.0224609375
+      },
+      "quiet_postgres_pss_mib": {
+        "median": 56.671875,
+        "min": 55.0595703125,
+        "max": 56.671875
+      },
+      "quiet_available_mib": {
+        "median": 357.6015625,
+        "min": 353.74609375,
+        "max": 360.84375
+      },
+      "quiet_samples": {
+        "median": 15,
+        "min": 15,
+        "max": 15
+      }
+    }
+  },
+  "spring-aot": {
+    "runs": [
+      {
+        "root_s": 6.494824284,
+        "owner_s": 6.6662280769999995,
+        "ready_rss_mib": 241.6640625,
+        "ready_pss_mib": 239.0498046875,
+        "quiet_rss_mib": 247.65234375,
+        "quiet_pss_mib": 244.9775390625,
+        "quiet_postgres_pss_mib": 56.6640625,
+        "quiet_available_mib": 407.18359375,
+        "quiet_samples": 15
+      },
+      {
+        "root_s": 6.827541953,
+        "owner_s": 6.976799716,
+        "ready_rss_mib": 244.01953125,
+        "ready_pss_mib": 241.4130859375,
+        "quiet_rss_mib": 247.50390625,
+        "quiet_pss_mib": 244.837890625,
+        "quiet_postgres_pss_mib": 56.6748046875,
+        "quiet_available_mib": 399.98046875,
+        "quiet_samples": 15
+      },
+      {
+        "root_s": 17.928642350999997,
+        "owner_s": 18.262921923,
+        "ready_rss_mib": 244.84375,
+        "ready_pss_mib": 242.1767578125,
+        "quiet_rss_mib": 258.1484375,
+        "quiet_pss_mib": 255.4814453125,
+        "quiet_postgres_pss_mib": 55.9609375,
+        "quiet_available_mib": 399.0703125,
+        "quiet_samples": 15
+      }
+    ],
+    "summary": {
+      "root_s": {
+        "median": 6.827541953,
+        "min": 6.494824284,
+        "max": 17.928642350999997
+      },
+      "owner_s": {
+        "median": 6.976799716,
+        "min": 6.6662280769999995,
+        "max": 18.262921923
+      },
+      "ready_rss_mib": {
+        "median": 244.01953125,
+        "min": 241.6640625,
+        "max": 244.84375
+      },
+      "ready_pss_mib": {
+        "median": 241.4130859375,
+        "min": 239.0498046875,
+        "max": 242.1767578125
+      },
+      "quiet_rss_mib": {
+        "median": 247.65234375,
+        "min": 247.50390625,
+        "max": 258.1484375
+      },
+      "quiet_pss_mib": {
+        "median": 244.9775390625,
+        "min": 244.837890625,
+        "max": 255.4814453125
+      },
+      "quiet_postgres_pss_mib": {
+        "median": 56.6640625,
+        "min": 55.9609375,
+        "max": 56.6748046875
+      },
+      "quiet_available_mib": {
+        "median": 399.98046875,
+        "min": 399.0703125,
+        "max": 407.18359375
+      },
+      "quiet_samples": {
+        "median": 15,
+        "min": 15,
+        "max": 15
+      }
+    }
+  },
+  "coilbase": {
+    "runs": [
+      {
+        "root_s": 1.8780250969999999,
+        "owner_s": 4.002943912,
+        "ready_rss_mib": 120.80078125,
+        "ready_pss_mib": 118.166015625,
+        "quiet_rss_mib": 130.05078125,
+        "quiet_pss_mib": 127.4111328125,
+        "quiet_postgres_pss_mib": 56.390625,
+        "quiet_available_mib": 507.6015625,
+        "quiet_samples": 15
+      },
+      {
+        "root_s": 1.6383185880000002,
+        "owner_s": 3.4091840579999997,
+        "ready_rss_mib": 117.2890625,
+        "ready_pss_mib": 114.6318359375,
+        "quiet_rss_mib": 130.44140625,
+        "quiet_pss_mib": 127.77734375,
+        "quiet_postgres_pss_mib": 56.388671875,
+        "quiet_available_mib": 501.88671875,
+        "quiet_samples": 15
+      },
+      {
+        "root_s": 4.179158662,
+        "owner_s": 7.787932059,
+        "ready_rss_mib": 117.03515625,
+        "ready_pss_mib": 114.37109375,
+        "quiet_rss_mib": 133.64453125,
+        "quiet_pss_mib": 130.9716796875,
+        "quiet_postgres_pss_mib": 56.1337890625,
+        "quiet_available_mib": 499.0,
+        "quiet_samples": 15
+      }
+    ],
+    "summary": {
+      "root_s": {
+        "median": 1.8780250969999999,
+        "min": 1.6383185880000002,
+        "max": 4.179158662
+      },
+      "owner_s": {
+        "median": 4.002943912,
+        "min": 3.4091840579999997,
+        "max": 7.787932059
+      },
+      "ready_rss_mib": {
+        "median": 117.2890625,
+        "min": 117.03515625,
+        "max": 120.80078125
+      },
+      "ready_pss_mib": {
+        "median": 114.6318359375,
+        "min": 114.37109375,
+        "max": 118.166015625
+      },
+      "quiet_rss_mib": {
+        "median": 130.44140625,
+        "min": 130.05078125,
+        "max": 133.64453125
+      },
+      "quiet_pss_mib": {
+        "median": 127.77734375,
+        "min": 127.4111328125,
+        "max": 130.9716796875
+      },
+      "quiet_postgres_pss_mib": {
+        "median": 56.388671875,
+        "min": 56.1337890625,
+        "max": 56.390625
+      },
+      "quiet_available_mib": {
+        "median": 501.88671875,
+        "min": 499.0,
+        "max": 507.6015625
+      },
+      "quiet_samples": {
+        "median": 15,
+        "min": 15,
+        "max": 15
+      }
+    }
+  },
+  "coilbase-aot": {
+    "runs": [
+      {
+        "root_s": 1.083239965,
+        "owner_s": 2.044285402,
+        "ready_rss_mib": 104.0546875,
+        "ready_pss_mib": 101.416015625,
+        "quiet_rss_mib": 108.51953125,
+        "quiet_pss_mib": 105.8681640625,
+        "quiet_postgres_pss_mib": 56.396484375,
+        "quiet_available_mib": 536.25,
+        "quiet_samples": 15
+      },
+      {
+        "root_s": 0.958104967,
+        "owner_s": 1.891028934,
+        "ready_rss_mib": 109.29296875,
+        "ready_pss_mib": 106.685546875,
+        "quiet_rss_mib": 112.86328125,
+        "quiet_pss_mib": 110.2421875,
+        "quiet_postgres_pss_mib": 56.38671875,
+        "quiet_available_mib": 533.8984375,
+        "quiet_samples": 15
+      },
+      {
+        "root_s": 1.3599717439999999,
+        "owner_s": 2.847903589,
+        "ready_rss_mib": 109.1796875,
+        "ready_pss_mib": 106.5244140625,
+        "quiet_rss_mib": 112.8359375,
+        "quiet_pss_mib": 110.1689453125,
+        "quiet_postgres_pss_mib": 55.681640625,
+        "quiet_available_mib": 538.76953125,
+        "quiet_samples": 15
+      }
+    ],
+    "summary": {
+      "root_s": {
+        "median": 1.083239965,
+        "min": 0.958104967,
+        "max": 1.3599717439999999
+      },
+      "owner_s": {
+        "median": 2.044285402,
+        "min": 1.891028934,
+        "max": 2.847903589
+      },
+      "ready_rss_mib": {
+        "median": 109.1796875,
+        "min": 104.0546875,
+        "max": 109.29296875
+      },
+      "ready_pss_mib": {
+        "median": 106.5244140625,
+        "min": 101.416015625,
+        "max": 106.685546875
+      },
+      "quiet_rss_mib": {
+        "median": 112.8359375,
+        "min": 108.51953125,
+        "max": 112.86328125
+      },
+      "quiet_pss_mib": {
+        "median": 110.1689453125,
+        "min": 105.8681640625,
+        "max": 110.2421875
+      },
+      "quiet_postgres_pss_mib": {
+        "median": 56.38671875,
+        "min": 55.681640625,
+        "max": 56.396484375
+      },
+      "quiet_available_mib": {
+        "median": 536.25,
+        "min": 533.8984375,
+        "max": 538.76953125
+      },
+      "quiet_samples": {
+        "median": 15,
+        "min": 15,
+        "max": 15
+      }
+    }
+  }
+}

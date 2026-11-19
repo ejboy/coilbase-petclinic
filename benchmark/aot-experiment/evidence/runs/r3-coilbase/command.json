@@ -1,0 +1,8 @@
+[
+  "java",
+  "-Xms64m",
+  "-Xmx256m",
+  "-Xlog:gc",
+  "-jar",
+  "[deployment]/coilbase/petclinic-1.0-SNAPSHOT.jar"
+]

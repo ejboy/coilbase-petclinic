@@ -1,0 +1,2 @@
+[0.007s][info][gc] Using Serial
+[0.009s][info][aot] Opened AOT cache [deployment]/coilbase/app.aot.

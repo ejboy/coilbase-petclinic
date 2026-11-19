@@ -1,0 +1,4 @@
+First Spring cache validation, selected JVM error messages
+[0.151s][warning][aot] Required classpath entry does not exist: spring-petclinic-4.0.0-SNAPSHOT.jar
+[0.151s][error  ][aot] shared class paths mismatch (hint: enable -Xlog:class+path=info to diagnose the failure)
+Unable to use AOT cache.

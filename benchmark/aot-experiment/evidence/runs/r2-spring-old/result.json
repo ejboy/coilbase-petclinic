@@ -1,0 +1,170 @@
+{
+  "variant": "spring-old",
+  "readiness": {
+    "root_ms": 43463.073581,
+    "owner_ms": 44210.463943
+  },
+  "quiet_seconds": 15,
+  "samples": [
+    {
+      "phase": "readiness",
+      "monotonic_ns": 3774104296277,
+      "app": {
+        "rss_kib": 284456,
+        "pss_kib": 281719
+      },
+      "postgres_pss_kib": 57698,
+      "mem_available_kib": 380464
+    },
+    {
+      "phase": "quiet",
+      "monotonic_ns": 3775555726056,
+      "app": {
+        "rss_kib": 291436,
+        "pss_kib": 288699
+      },
+      "postgres_pss_kib": 57306,
+      "mem_available_kib": 373512
+    },
+    {
+      "phase": "quiet",
+      "monotonic_ns": 3776663974733,
+      "app": {
+        "rss_kib": 291504,
+        "pss_kib": 288767
+      },
+      "postgres_pss_kib": 57306,
+      "mem_available_kib": 371644
+    },
+    {
+      "phase": "quiet",
+      "monotonic_ns": 3777697916882,
+      "app": {
+        "rss_kib": 291556,
+        "pss_kib": 288819
+      },
+      "postgres_pss_kib": 57306,
+      "mem_available_kib": 371668
+    },
+    {
+      "phase": "quiet",
+      "monotonic_ns": 3778753317261,
+      "app": {
+        "rss_kib": 291556,
+        "pss_kib": 288819
+      },
+      "postgres_pss_kib": 57306,
+      "mem_available_kib": 371668
+    },
+    {
+      "phase": "quiet",
+      "monotonic_ns": 3779804129739,
+      "app": {
+        "rss_kib": 291556,
+        "pss_kib": 288819
+      },
+      "postgres_pss_kib": 57306,
+      "mem_available_kib": 371668
+    },
+    {
+      "phase": "quiet",
+      "monotonic_ns": 3780839062523,
+      "app": {
+        "rss_kib": 291556,
+        "pss_kib": 288819
+      },
+      "postgres_pss_kib": 57306,
+      "mem_available_kib": 371668
+    },
+    {
+      "phase": "quiet",
+      "monotonic_ns": 3781891547361,
+      "app": {
+        "rss_kib": 291556,
+        "pss_kib": 288819
+      },
+      "postgres_pss_kib": 57306,
+      "mem_available_kib": 371668
+    },
+    {
+      "phase": "quiet",
+      "monotonic_ns": 3782926576666,
+      "app": {
+        "rss_kib": 291556,
+        "pss_kib": 288819
+      },
+      "postgres_pss_kib": 57306,
+      "mem_available_kib": 371588
+    },
+    {
+      "phase": "quiet",
+      "monotonic_ns": 3783960500726,
+      "app": {
+        "rss_kib": 291556,
+        "pss_kib": 288819
+      },
+      "postgres_pss_kib": 57306,
+      "mem_available_kib": 371588
+    },
+    {
+      "phase": "quiet",
+      "monotonic_ns": 3784991651722,
+      "app": {
+        "rss_kib": 291556,
+        "pss_kib": 288819
+      },
+      "postgres_pss_kib": 57306,
+      "mem_available_kib": 371588
+    },
+    {
+      "phase": "quiet",
+      "monotonic_ns": 3786030696016,
+      "app": {
+        "rss_kib": 291556,
+        "pss_kib": 288819
+      },
+      "postgres_pss_kib": 57306,
+      "mem_available_kib": 371588
+    },
+    {
+      "phase": "quiet",
+      "monotonic_ns": 3787094364464,
+      "app": {
+        "rss_kib": 291560,
+        "pss_kib": 288823
+      },
+      "postgres_pss_kib": 57306,
+      "mem_available_kib": 371588
+    },
+    {
+      "phase": "quiet",
+      "monotonic_ns": 3788131044268,
+      "app": {
+        "rss_kib": 291560,
+        "pss_kib": 288823
+      },
+      "postgres_pss_kib": 57306,
+      "mem_available_kib": 371588
+    },
+    {
+      "phase": "quiet",
+      "monotonic_ns": 3789165378159,
+      "app": {
+        "rss_kib": 291560,
+        "pss_kib": 288823
+      },
+      "postgres_pss_kib": 57306,
+      "mem_available_kib": 371504
+    },
+    {
+      "phase": "quiet",
+      "monotonic_ns": 3790206958754,
+      "app": {
+        "rss_kib": 291560,
+        "pss_kib": 288823
+      },
+      "postgres_pss_kib": 57306,
+      "mem_available_kib": 371504
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+PASS: shared owner and pet HTTP contract on spring
+PASS: shared writes visible after restart
+PASS: shared owner and pet HTTP contract on coilbase
+PASS: shared writes visible after restart
+PASS: independent PostgreSQL committed rows on spring
+PASS: independent PostgreSQL committed rows on coilbase

@@ -1,0 +1,37 @@
+{
+  "spring-old": {
+    "application_and_libraries_bytes": 65607443,
+    "jar_count": 94,
+    "application_jar_sha256": "40d3d91e7f7b0a806620c9fb192e8794019478354761c96355ec7d1f358da56d"
+  },
+  "spring-current": {
+    "application_and_libraries_bytes": 66149536,
+    "jar_count": 95,
+    "application_jar_sha256": "0adce2042294cba3ad7a4558bb52beaf1a829c9394992aa276e2faeae1580557"
+  },
+  "spring-aot": {
+    "application_and_libraries_bytes": 66727569,
+    "jar_count": 95,
+    "application_jar_sha256": "813832f64cf380188fd37f960ede803d3d3c30fe6240f9ef4a635f9bfceab60d",
+    "cache": {
+      "bytes": 135258112,
+      "sha256": "14acc65200b1d952974e4b0e09cc7e66c761e16dac23b7d591d394524adf1550"
+    }
+  },
+  "coilbase": {
+    "application_and_libraries_bytes": 9776198,
+    "jar_count": 23,
+    "application_jar_sha256": "05f3f4aabae7a4a0b8a7cc6093c8f4341ac27f82c7f300fc920088ff0dbc64bb"
+  },
+  "coilbase-aot": {
+    "cache": {
+      "bytes": 42598400,
+      "sha256": "b14840105d260502bfe000d49696ac8cef82b61f91171a84971b72e0494c0312"
+    }
+  },
+  "fixture": {
+    "spring_source_revision": "500158f732419217507c7656904b8e6aa1bcc0d6",
+    "schema_sql_sha256": "c6e4b61e9ffabf2d89e2237738ac8a3a8b766030bd0a1b235e3f7b4be63221d0",
+    "data_sql_sha256": "2d9e8bbf98d5267a15adb141342a67c5efef1e08de580fc7efa98c6d97b763a4"
+  }
+}
